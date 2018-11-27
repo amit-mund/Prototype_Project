@@ -1,0 +1,21 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" 
+xmlns:mvc="sap.ui.core.mvc" 
+xmlns="sap.m" 
+xmlns:c="Custom_control.Custom_control.control"
+controllerName="Custom_control.Custom_control.controller.View1" 
+displayBlock="true">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+				    <Input />
+				   <c:Switch state="true"
+                        customTextOn="Yes"
+                        customTextOff="No"
+                    />
+                    
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
