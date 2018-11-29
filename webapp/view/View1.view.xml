@@ -13,7 +13,7 @@ displayBlock="true">
                         customTextOn="Yes"
                         customTextOff="No"
                     />
-                    <Label text="sap"></Label>
+                    <Label text="sapv2"></Label>
                     
 				</content>
 			</Page>
